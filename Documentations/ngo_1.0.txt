@@ -1,0 +1,48 @@
+sign up Module
+
+ -Registration epic
+   --create a 'user' table with columns (organization_name, organization_info, registation_no, phone_no , person_name, email, password, confirm_password)
+   --create api for registration (save registration details)
+   --create registration page
+ 
+ -Document verification epic
+   --create table 'document verification' with columns (ngo_registration_certficate, tax_exemption_certificate, contact_person_id_proof)
+   --create api for document verification (save documents details)
+   --create document verification page
+
+ -Service Area epic
+   --create table 'service_area' with columns (company, area_street, land_mark, city_region, district, zip_code, state, collection_type, primary_contact, service_radius, opening_time , closing_time)
+   --create api service_area (save service area details)
+   --create service area page
+
+-Verification epic
+   --create api to show details (organization_name, registration_no, email, person_name, documents, service_radius)
+   --create api to show verification state
+   --create verification page
+   --create signup page
+   --connect frontend to backend api
+
+Sign in Module
+
+-sign in epic
+   --create signin api
+   --create signin page with email and password fields
+   --connect frontend to backend api
+
+Dashboard Module
+ 
+ -Total donations, pending requests, active donors
+   --create api to calculate total donations received
+   --create api to calculate total pending requests
+   --create api to show active donors
+
+ -charts/graphs
+   --create api to calculate monthly donations
+   --create api to calculate medicine categories
+
+ -Recent donations
+   --create api to fetch recent donations (active / pending / confirmed)
+
+Dashboard Module
+
+-
